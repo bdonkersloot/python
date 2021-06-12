@@ -11,3 +11,13 @@ while True:
         break
     print(data.decode(),end='')
 mysock.close()
+
+
+numbers = [5, 2, 5, 2, 2]
+for num in numbers:
+    num_of_x = ''
+    for i in range(num):
+        num_of_x += 'x'
+
+    print(num_of_x)
+    
